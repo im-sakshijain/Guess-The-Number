@@ -2,10 +2,10 @@
 #include<stdlib.h>
 #include<time.h>
 
-
 int main(){
     int number,guess,nguesses=1;
     srand(time(0));
+    printf("\nWELCOME!");
 
     number = rand()%100+1;//generates a random num b/w 1 to 100
     //printf("The number is %d\n",number);
