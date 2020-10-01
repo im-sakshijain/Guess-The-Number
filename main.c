@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-
+// change -*******
 
 int main(){
     int number,guess,nguesses=1;
@@ -14,10 +14,10 @@ int main(){
        printf("**Guess The Number Between 1 to 100**\n");
        scanf("%d",&guess); 
        if(guess>number){
-           printf("**Lower Number Please**\n");
+           printf("** Enter Lower Number Please**\n");
        }
        else if(guess<number){
-           printf("**Higher Number Please**\n");
+           printf("** Enter Higher Number Please**\n");
        }
        else{
            printf("You Guessed It In %d Attempts\n",nguesses);
